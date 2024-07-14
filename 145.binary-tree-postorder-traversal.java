@@ -33,18 +33,17 @@ class Solution {
 
         TreeNode currNode = root;
 
-        // TreeNode currNode = root;
         stack.add(root);
 
         while(!stack.isEmpty() && currNode != null){
 
             currNode = stack.pop();
-
             output.push(currNode);
 
             if(currNode.left != null) {
                 stack.add(currNode.left);
             }
+            
             if(currNode.right != null) {
                 stack.add(currNode.right);
             }

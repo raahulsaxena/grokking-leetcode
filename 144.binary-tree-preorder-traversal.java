@@ -40,9 +40,7 @@ class Solution {
         while(!stack.isEmpty()){
 
             TreeNode currNode = stack.pop();
-
             res.add(currNode.val);
-
 
             // IMP: acc. to the question, right node to be returned first, and then the left node
             if(currNode.right != null) stack.add(currNode.right);
@@ -52,12 +50,6 @@ class Solution {
         }
 
         return res;
-
-
-
-
-
-
         
     }
 }
