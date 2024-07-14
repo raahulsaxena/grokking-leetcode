@@ -9,6 +9,7 @@ class Solution {
     public int maximumUnits(int[][] boxTypes, int truckSize) {
 
         // Sort the boxTypes array based on the number of units in each box.
+        // Then, iterate through the boxTypes array and add the maximum number of units to the truck.
         sortBoxes(boxTypes);
 
         int maxUnits = 0;
