@@ -5,6 +5,10 @@
  */
 
 // @lc code=start
+
+/*
+ * Pattern : Fractional Knapsack
+ */
 class Solution {
     public int maximumUnits(int[][] boxTypes, int truckSize) {
 
