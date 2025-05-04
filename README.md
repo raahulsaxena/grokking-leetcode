@@ -53,6 +53,30 @@ These are grouped under `binary-tree/` and subfolders:
 
 ---
 
+## 🌐 Graph Patterns
+
+Graph-related problems span a wide variety of topics and appear frequently in coding interviews. This repo organizes them into specific subfolders inside the `graphs/` directory:
+
+### Graph Problem Types
+
+- **Clone Graph**: Deep copy of a graph using BFS/DFS.
+- **Graph Traversal**
+  - `bfs/`: Breadth-First Search
+  - `dfs/`: Depth-First Search
+- **Connected Components**: Number of islands, friend circles, etc.
+- **Topological Sort**: Course schedule, task scheduling
+- **Cycle Detection**: Detecting cycles in directed and undirected graphs
+- **Shortest Path Algorithms**
+  - `dijkstra/`: Dijkstra’s algorithm
+  - `bellman-ford/`, `floyd-warshall/` (optional extensions)
+- **Union-Find (Disjoint Set Union)**: Kruskal's MST, cycle detection
+- **Graph Coloring**: Bipartite check, scheduling
+- **Minimum Spanning Tree**: Prim's and Kruskal's algorithms
+
+Each folder includes problems with readable implementations and comments to help you understand the structure and logic.
+
+---
+
 ## 🧠 How to Use This Repo
 
 - Navigate to the folder matching the topic you're practicing (e.g., `greedy/`, `dynamic-programming/`)
